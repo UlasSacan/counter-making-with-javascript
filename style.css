@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 1rem;
+
+}
+.buttons button{
+    padding: .5rem;
+    width: 5rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: rgb(13, 152, 245);
+    border:none;
+    border-radius: .2rem;
+    color: white;
+}
+
+#restart{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px rgb(0, 153, 255) solid;
+}
+
+#counter{
+    font-size: 40px;
+    width: 100px;
+    text-align: center;
+    color: wheat;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+
+.app{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 14, 48);
+    width: 30rem;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+}
